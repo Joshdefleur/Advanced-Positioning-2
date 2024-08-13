@@ -58,6 +58,7 @@ a:hover {
     position: absolute; 
     top: -25px;
     left: -30px;
+    z-index: 1;
   }
 
   .features-menu li {
@@ -72,6 +73,12 @@ a:hover {
     border-bottom: none;
   }
 
-  .dropdown {
+  .dropdown{
     position: relative;
+  }
+
+  .dropdown > span {
+    z-index: 2;
+    position: relative;  /* This is important! */
+    cursor: pointer;
   }

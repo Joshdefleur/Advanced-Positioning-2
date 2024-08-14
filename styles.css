@@ -49,7 +49,7 @@ a:hover {
 
   /* Dropdown menu */
 
-  .features-menu {
+  .dropdown:hover .features-menu {
     display: flex;
     flex-direction: column;
     background: #B2D6FF;
@@ -72,6 +72,10 @@ a:hover {
   .features-menu li:last-of-type {
     border-bottom: none;
   }
+
+.features-menu{
+  display: none;
+}
 
   .dropdown{
     position: relative;
